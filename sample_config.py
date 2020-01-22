@@ -67,13 +67,13 @@ class Config(object):
         "antiflood",
         "blacklist",
         "locks",
-        "pmpermit",
+
         "snip",
         "gban",
         "welcome",
         "markdown",
         "mention",
-        "notification"
+
 
     ]
     # Get your own API key from https://www.remove.bg/ or
