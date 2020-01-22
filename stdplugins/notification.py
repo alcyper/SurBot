@@ -98,7 +98,7 @@ async def approve_p_m(event):
                     await PREV_REPLY_MESSAGE[chat.id].delete()
                     del PREV_REPLY_MESSAGE[chat.id]
                 pmpermit_sql.approve(chat.id, reason)
-                await event.edit("[──███▅▄▄▄▄▄▄▄▄▄\n─██▐████████████\n▐█▀████████████▌▌\n▐─▀▀▀▐█▌▀▀███▀█─▌\n▐▄───▄█───▄█▌▄█](t.me/Sur_vivo) \n\n My Master Has Approved You To PM Me...")
+                await event.edit("[──███▅▄▄▄▄▄▄▄▄▄\n─██▐████████████\n▐█▀████████████▌▌\n▐─▀▀▀▐█▌▀▀███▀█─▌\n▐▄───▄█───▄█▌▄█](t.me/Sur_vivor) \n\n My Master Has Approved You To PM Me...")
                 await asyncio.sleep(3)
                 await event.delete()
 
