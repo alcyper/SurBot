@@ -22,7 +22,7 @@ PREV_REPLY_MESSAGE = {}
 BAALAJI_TG_USER_BOT = "My Master hasn't approved you to PM."
 TG_COMPANION_USER_BOT = "Please wait for his response and don't spam his PM."
 UNIBORG_USER_BOT_WARN_ZERO = "You are Spamming my Master's PM, So you are blocked by me. \nNow wait, Until my Master Unblocks you."
-UNIBORG_USER_BOT_NO_WARN = "[──▄█▀█▄─────────██ \n▄████████▄───▄▀█▄▄▄▄ \n██▀▼▼▼▼▼─▄▀──█▄▄ \n█████▄▲▲▲─▄▄▄▀───▀▄ \n██████▀▀▀▀─▀────────▀▀] \n\nBleep Blop! This is a Bot. Don't Freak xD.\n\nMy Master hasn't approved you to PM yet. Please wait for my Great Master to look in, She mostly approves PMs.\n\nUntil then, please don't spam my Queen's PM, you'll get blocked and reported!"
+UNIBORG_USER_BOT_NO_WARN = "[──▄█▀█▄─────────██ \n▄████████▄───▄▀█▄▄▄▄ \n██▀▼▼▼▼▼─▄▀──█▄▄ \n█████▄▲▲▲─▄▄▄▀───▀▄ \n██████▀▀▀▀─▀────────▀▀](t.me/Sur_vivor) \n\nBleep Blop! This is a Bot. Don't Freak xD.\n\nMy Master hasn't approved you to PM yet. Please wait for my Great Master to look in, He mostly approves PMs.\n\nUntil then, please don't spam my King's PM, you'll get blocked and reported!"
 
 
 @borg.on(admin_cmd(pattern="nccreatedch"))
@@ -98,7 +98,7 @@ async def approve_p_m(event):
                     await PREV_REPLY_MESSAGE[chat.id].delete()
                     del PREV_REPLY_MESSAGE[chat.id]
                 pmpermit_sql.approve(chat.id, reason)
-                await event.edit("[──███▅▄▄▄▄▄▄▄▄▄\n─██▐████████████\n▐█▀████████████▌▌\n▐─▀▀▀▐█▌▀▀███▀█─▌\n▐▄───▄█───▄█▌▄█](t.me/kirito6969) \n\n My Master Has Approved You To PM Me...")
+                await event.edit("[──███▅▄▄▄▄▄▄▄▄▄\n─██▐████████████\n▐█▀████████████▌▌\n▐─▀▀▀▐█▌▀▀███▀█─▌\n▐▄───▄█───▄█▌▄█](t.me/Sur_vivor) \n\n My Master Has Approved You To PM Me...")
                 await asyncio.sleep(3)
                 await event.delete()
 
