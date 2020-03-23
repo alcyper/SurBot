@@ -37,25 +37,25 @@ async def _(event):
         await event.edit("Reply to a photo to add to my personal sticker pack.")
         return
     reply_message = await event.get_reply_message()
-    sticker_emoji = "🍆"
+    sticker_emoji = "😇"
     input_str = event.pattern_match.group(1)
     if input_str:
         sticker_emoji = input_str
 
     me = borg.me
     userid = event.from_id
-    packname = f"@r4v4n4 geng beng"
-    packshortname = f"ravana_gengbeng01{userid}"  # format: Uni_Borg_userid
+    packname = f"✰Sᴀͥʀᴀͣᴛͫʜ™️✰ @Sur_vivor"
+    packshortname = f"✰Sᴀͥʀᴀͣᴛͫʜ™️✰-Survivor{userid}"  # format: Uni_Borg_userid
 
     is_a_s = is_it_animated_sticker(reply_message)
-    file_ext_ns_ion = "ravana_Sticker.png"
+    file_ext_ns_ion = "✰Sᴀͥʀᴀͣᴛͫʜ™️✰_Sticker.png"
     file = await borg.download_file(reply_message.media)
     uploaded_sticker = None
     if is_a_s:
         file_ext_ns_ion = "AnimatedSticker.tgs"
         uploaded_sticker = await borg.upload_file(file, file_name=file_ext_ns_ion)
-        packname = f"ravana_AnimatedStickers"
-        packshortname = f"ravana_Animated"  # format: Uni_Borg_userid
+        packname = f"✰Sᴀͥʀᴀͣᴛͫʜ™️✰-AnimatedStickers"
+        packshortname = f"✰Sᴀͥʀᴀͣᴛͫʜ™️✰-Animated"  # format: Uni_Borg_userid
     elif not is_message_image(reply_message):
         await event.edit("Invalid message type")
         return
