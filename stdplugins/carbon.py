@@ -63,7 +63,7 @@ async def carbon_api(e):
          e.chat_id,
          file,
          caption="Carbon by [@Sur_vivor](https://github.com/Sur-vivor/SurBot)",
-         force_document=True,
+         force_document=False,
          reply_to=e.message.reply_to_msg_id,
          )
 
