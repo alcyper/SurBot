@@ -7,7 +7,7 @@ from telethon.errors import FloodWaitError
 from uniborg.util import admin_cmd
 
 
-DEL_TIME_OUT = 140
+DEL_TIME_OUT = 60
 
 
 @borg.on(admin_cmd("cname"))  # pylint:disable=E0602
