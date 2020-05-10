@@ -147,7 +147,8 @@ class Config(object):
     API_TOKEN = os.environ.get("API_TOKEN", None)
     #
     watermark_path = os.environ.get("watermark_path", None)
-
+    #
+    USER = os.environ.get("USER", None)
 class Production(Config):
     LOGGER = False
 
