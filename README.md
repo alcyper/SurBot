@@ -2,11 +2,9 @@
 
 #click_the_photo_below_to_deploy
 
-[![Deploy](hhttps://telegra.ph/file/4a29efdf8a2cd3617a3d1.jpg)](https://heroku.com/deploy)
+[![Deploy](https://telegra.ph/file/4a29efdf8a2cd3617a3d1.jpg)](https://heroku.com/deploy)
 
-[![Warning](https://telegra.ph/file/4a29efdf8a2cd3617a3d1.jpg)](https://telegra.ph/file/019a2eab3d66d39c92a75.mp4 "CopyLeft Credit Video")
-
-![](https://telegra.ph/file/e9aabcb9ead09a6387a51.mp4)[🔥🔥🔥🔥🔥
+[🔥🔥🔥🔥🔥
 🔥🔥🔥🔥🔥
 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
 🔥🔥🔥🔥🔥
