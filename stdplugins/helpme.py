@@ -20,7 +20,7 @@ async def _(event):
     uname = platform.uname()
     memory = psutil.virtual_memory()
     specs = f"```System: {uname.system}```\n```Release: {uname.release}```\n```Version: {uname.version}```\n```Processor: {uname.processor}```\n```Memory [RAM]: {get_size(memory.total)}```"
-    help_string = f"`🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶\n`**General Account Analysis:**\n```🔧Build: {BUILD}```\nUser: {str(user)}\n```By: @R4v4n4```\n\n**⚙️System Specifications:**\n{specs}\n```🐍Python {sys.version}```\n```💾Telethon {__version__}```\n[🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶](https://del.dog/fepapar)"    
+    help_string = f"`🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶\n`**General Account Analysis:**\n```🔧Build: {BUILD}```\nUser: {str(user)}\n```By: @R4v4n4```\n\n**⚙️System Specifications:**\n{specs}\n```🐍Python {sys.version}```\n```💾Telethon {__version__}```\n[🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶](https://telegra.ph/file/c33e6ab828c2e2fde385b.jpg)"    
     await event.reply(help_string + "\n\n")
     await event.delete()
 
