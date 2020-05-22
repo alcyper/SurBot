@@ -165,7 +165,7 @@ async def _(event):
                          
     if x==34:
         
-        await event.edit("🎶Youngblood \n Say you want me, Say you want me \n Back in your life \n So I'm just a dea
+        await event.edit("🎶Youngblood \n Say you want me, Say you want me \n Back in your life \n So I'm just a dead man crawling tonight \n 'Cause I need it, yeah, I need it \n All of the time \n Yeah, ooh ooh ooh...🎶")
 
     if x==35:
 
