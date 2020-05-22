@@ -146,6 +146,10 @@ class Config(object):
     #
     API_TOKEN = os.environ.get("API_TOKEN", None)
     #
+    HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
+    #
+    HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
+    #
     watermark_path = os.environ.get("watermark_path", None)
     #
     USER = os.environ.get("USER", None)
