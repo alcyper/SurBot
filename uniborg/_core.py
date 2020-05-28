@@ -20,14 +20,14 @@ async def load_reload(event):
         if shortname in borg._plugins:  # pylint:disable=E0602
             borg.remove_plugin(shortname)  # pylint:disable=E0602
         borg.load_plugin(shortname)  # pylint:disable=E0602
-        msg = await event.respond(f"BetiChod Successfully (re)loda pligon {shortname}")
+        msg = await event.respond(f"Successfully (re)load plugin {shortname}")
         await asyncio.sleep(DELETE_TIMEOUT)
         await msg.delete()
     except Exception as e:  # pylint:disable=C0103,W0703
         trace_back = traceback.format_exc()
         # pylint:disable=E0602
         logger.warn(f"Failed to (re)load plugin {shortname}: {trace_back}")
-        await event.respond(f"Failed to (re)loda pligon {shortname}: {e}")
+        await event.respond(f"Failed to (re)load plugin {shortname}: {e}")
 
 
 @borg.on(util.admin_cmd(pattern="(?:unloda|remove) (?P<shortname>\w+)$"))  # pylint:disable=E0602
@@ -40,12 +40,12 @@ async def remove(event):
         borg.remove_plugin(shortname)  # pylint:disable=E0602
         msg = await event.respond(f"Removed pligon {shortname}")
     else:
-        msg = await event.respond(f"Pligon {shortname} is not loda...")
+        msg = await event.respond(f"Plugin {shortname} is not load....")
     await asyncio.sleep(DELETE_TIMEOUT)
     await msg.delete()
 
 
-@borg.on(util.admin_cmd(pattern="sund pligon (?P<shortname>\w+)$"))  # pylint:disable=E0602
+@borg.on(util.admin_cmd(pattern="send (?P<shortname>\w+)$"))  # pylint:disable=E0602
 async def send_plug_in(event):
     if event.fwd_from:
         return
@@ -62,12 +62,12 @@ async def send_plug_in(event):
     )
     end = datetime.now()
     time_taken_in_ms = (end - start).seconds
-    await event.edit("BetiChod is pligon ko upload kar diya {} in {} seconds".format(input_str, time_taken_in_ms))
+    await event.edit("Plugin ko upload kar diya {} in {} seconds".format(input_str, time_taken_in_ms))
     await asyncio.sleep(DELETE_TIMEOUT)
     await event.delete()
 
 
-@borg.on(util.admin_cmd(pattern="instull pligon"))  # pylint:disable=E0602
+@borg.on(util.admin_cmd(pattern="install plugin"))  # pylint:disable=E0602
 async def install_plug_in(event):
     if event.fwd_from:
         return
