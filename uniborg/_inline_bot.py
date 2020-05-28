@@ -79,7 +79,7 @@ if Config.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
         elif query.startswith("tb_btn"):
             result = builder.article(
                 "Button Parser © @UniBorg",
-                text=f"powered by @UniBorg",
+                text=f"powered by @Sur_vivor",
                 buttons=[],
                 link_preview=True
             )
@@ -138,7 +138,7 @@ if Config.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
             # https://t.me/TelethonChat/115200
             await event.edit(buttons=buttons)
         else:
-            reply_pop_up_alert = "Please get your own @UniBorg, and don't edit my messages!"
+            reply_pop_up_alert = "Please get your own @Sur_vivor, and don't edit my messages!"
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
 
