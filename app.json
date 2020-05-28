@@ -66,6 +66,11 @@
       "value": "GET API TO MAKE AI WORK",
       "required": false
     },
+    "GENIUS_API_TOKEN": {
+      "description": "To search lyrics of a song",
+      "value": "GET API TO MAKE LYRICS WORK",
+      "required": false  
+    },
     "HASH_TO_TORRENT_API": {
       "description": "This is required for the hash to torrent file functionality to work.",
       "value": "https://example.com/torrent/{}",
