@@ -82,10 +82,10 @@ async def install_plug_in(event):
             )
             if "(" not in downloaded_file_name:
                 borg.load_plugin_from_file(downloaded_file_name)   
-                await event.edit("Bsdk Installed Plugin `{}`".format(os.path.basename(downloaded_file_name)))
+                await event.edit("Yep, Installed Plugin `{}`".format(os.path.basename(downloaded_file_name)))
             else:
                 os.remove(downloaded_file_name)
-                await event.edit("`Abe Sale ! Plugin already exists, Can't instll`")
+                await event.edit("`Pling ! Plugin already exists, Can't instll`")
         except Exception as e:  # pylint:disable=C0103,W0703
             await event.edit(str(e))
             os.remove(downloaded_file_name)
