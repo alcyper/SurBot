@@ -24,7 +24,7 @@ class Uniborg(TelegramClient):
         # This means that using the Storage type as a storage would work too.
         self._name = "LoggedIn"
         self.storage = storage or (lambda n: Storage(Path("data") / n))
-        self._logger = logging.getLogger("PornHub")
+        self._logger = logging.getLogger("Survivor")
         self._plugins = {}
         self._plugin_path = plugin_path
         self.config = api_config
@@ -84,7 +84,7 @@ class Uniborg(TelegramClient):
         self.me = await self.get_me()
         self.uid = telethon.utils.get_peer_id(self.me)
 
-        self._logger.info(f"lund logged in as {self.uid}")
+        self._logger.info(f"Logged in as {self.uid}")
 
 
     def load_plugin(self, shortname):
@@ -109,7 +109,7 @@ class Uniborg(TelegramClient):
 
         spec.loader.exec_module(mod)
         self._plugins[shortname] = mod
-        self._logger.info(f"gandu pligon load ho gaya hai = {shortname}")
+        self._logger.info(f"Successfully loaded plugin {shortname}")
 
     def remove_plugin(self, shortname):
         name = self._plugins[shortname].__name__
@@ -120,7 +120,7 @@ class Uniborg(TelegramClient):
                 del self._event_builders[i]
 
         del self._plugins[shortname]
-        self._logger.info(f"betichod pligon remove kar hai madarchod = {shortname}")
+        self._logger.info(f"Removed plugin {shortname}")
 
     def await_event(self, event_matcher, filter=None):
         fut = asyncio.Future()
