@@ -2,7 +2,7 @@
 
 #click_the_photo_below_to_deploy
 
-[![Deploy](https://telegra.ph/file/4a29efdf8a2cd3617a3d1.jpg)](https://heroku.com/deploy)
+[![Deploy](https://telegra.ph/file/c33e6ab828c2e2fde385b.jpg)](https://heroku.com/deploy)
 
 [🔥🔥🔥🔥🔥
 🔥🔥🔥🔥🔥
