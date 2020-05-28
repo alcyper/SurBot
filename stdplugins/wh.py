@@ -1,5 +1,5 @@
 """Get Telegram User Information
-Syntax: .wh @username/userid"""
+Syntax: .rendi @username/userid"""
 
 
 
@@ -17,7 +17,7 @@ TMP_DOWNLOAD_DIRECTORY = "./"
 
 
 
-@borg.on(admin_cmd(pattern="wh (.*)"))
+@borg.on(admin_cmd(pattern="rendi (.*)"))
 async def who(event):
     if event.fwd_from:
         return
